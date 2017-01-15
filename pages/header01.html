@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>header2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="../bootstrap/bootstrap.min.css">
+    <script src="../bootstrap/jquery.min.js"></script>
+    <script src="../bootstrap/bootstrap.min.js"></script>
+    <style type="text/css">
+        body{
+            width: 100%;
+        }
+        .img-circle{
+            width: 50px;
+            max-height: 50px;
+        }
+        .chat {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        .chat li {
+            margin-bottom: 10px;
+            padding-bottom: 5px;
+            border-bottom: 1px dotted #999999;
+        }
+        .chat li.left .chat-body {
+            margin-left: 60px;
+        }
+        .chat li.right .chat-body {
+            margin-right: 60px;
+        }
+        .chat li .chat-body p {
+            margin: 0;
+        }
+        .chat-panel .panel-body {
+            height: 350px;
+            overflow-y: scroll;
+        }
+
+    </style>
+</head>
+<body>
+<div class="container">
+<div class="row">
+    <div class="col-sm-4"></div>
+    <div class="col-sm-4">
+        <div class="chat-panel panel panel-default">
+            <div class="panel-heading">
+                <i><span class="glyphicon glyphicon-ueer" ></span></i> Chat
+            </div>
+            <!-- /.panel-heading -->
+            <div class="panel-body">
+                <ul class="chat">
+                    <li class="left clearfix">
+                                    <span class="chat-img pull-left">
+                                        <img src="../images/h.jpg" alt="User Avatar" class="img-circle" />
+                                    </span>
+                        <div class="chat-body clearfix">
+                            <div class="header">
+                                <strong class="primary-font">Jack Sparrow</strong>
+                                <small class="pull-right text-muted">
+                                    <i class="fa fa-clock-o fa-fw"></i> 12 mins ago
+                                </small>
+                            </div>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="right clearfix">
+                                    <span class="chat-img pull-right">
+                                        <img src="../images/h.jpg" alt="User Avatar" class="img-circle" />
+                                    </span>
+                        <div class="chat-body clearfix">
+                            <div class="header">
+                                <small class=" text-muted">
+                                    <i class="fa fa-clock-o fa-fw"></i> 13 mins ago</small>
+                                <strong class="pull-right primary-font">Bhaumik Patel</strong>
+                            </div>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="left clearfix">
+                                    <span class="chat-img pull-left">
+                                        <img src="../images/h.jpg" alt="User Avatar" class="img-circle" />
+                                    </span>
+                        <div class="chat-body clearfix">
+                            <div class="header">
+                                <strong class="primary-font">Jack Sparrow</strong>
+                                <small class="pull-right text-muted">
+                                    <i class="fa fa-clock-o fa-fw"></i> 14 mins ago</small>
+                            </div>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="right clearfix">
+                                    <span class="chat-img pull-right">
+                                        <img src="../images/h.jpg" alt="User Avatar" class="img-circle" />
+                                    </span>
+                        <div class="chat-body clearfix">
+                            <div class="header">
+                                <small class=" text-muted">
+                                    <i class="fa fa-clock-o fa-fw"></i> 15 mins ago</small>
+                                <strong class="pull-right primary-font">Bhaumik Patel</strong>
+                            </div>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales.
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.panel-body -->
+            <div class="panel-footer">
+                <div class="input-group">
+                    <input id="btn-input" type="text" class="form-control input-sm" placeholder="Type your message here..." />
+                    <span class="input-group-btn">
+                                    <button class="btn btn-warning btn-sm" id="btn-chat">
+                                        Send
+                                    </button>
+                                </span>
+                </div>
+            </div>
+            <!-- /.panel-footer -->
+        </div>
+    </div>
+</div>
+</div>
+
+</body>
+</html>
